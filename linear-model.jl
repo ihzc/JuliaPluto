@@ -13,9 +13,6 @@ using DataFrames
 # ╔═╡ b8a1d747-929f-43d1-9894-bffb72ad7bf3
 #Pkg.activate(".")
 
-# ╔═╡ 6875131a-b497-4422-ac10-2fd07892b727
-
-
 # ╔═╡ 56e9db72-7ec8-11ec-2b5e-458367c3b8b7
 # hideall
 title = "Linear model fitting";
@@ -92,10 +89,20 @@ html"""
 
 # ╔═╡ 5705a024-8755-4e94-986b-41e7d26ad3b9
 md"""
-| Item         | Price | # In stock |
-|--------------|:-----:|-----------:|
-| Juicy Apples |  1.99 |        739 |
-| Bananas      |  1.89 |          6 |
+
+| Seismic tomography         |  |
+|-----|:-----|
+| ![](https://box.nju.edu.cn/f/7e9af844662d4d9f9a8c/?dl=1) |  That is an important figure that should be used everywhere. |
+
+"""
+
+# ╔═╡ 1965792d-1cab-49fa-a9a9-393b449dc0fe
+html"""
+<div style="display: flex; flex-direction: row; object-fit: contain;">
+    <img src="https://box.nju.edu.cn/f/7e9af844662d4d9f9a8c/?dl=1" width="60%" height="auto"/>
+	&nbsp;
+    <p> <br> <br> Some explanation here Some explanation here Some explanation here Some explanation here Some explanation here </p>
+</div>
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -346,7 +353,6 @@ version = "5.11.0+0"
 # ╔═╡ Cell order:
 # ╠═f8672883-5ed7-409f-9ebf-772701ee00e7
 # ╠═b8a1d747-929f-43d1-9894-bffb72ad7bf3
-# ╠═6875131a-b497-4422-ac10-2fd07892b727
 # ╠═56e9db72-7ec8-11ec-2b5e-458367c3b8b7
 # ╠═061c6a60-7a8f-48ac-8c3c-8306d4d0c3ee
 # ╠═77a9e4da-f015-4ce6-ba57-60aa5a76193f
@@ -358,5 +364,6 @@ version = "5.11.0+0"
 # ╠═1c01ec7d-0483-4b62-97bb-fa2f74d351db
 # ╟─6af4c32a-1e21-47e8-a319-8729e33a7e53
 # ╟─5705a024-8755-4e94-986b-41e7d26ad3b9
+# ╠═1965792d-1cab-49fa-a9a9-393b449dc0fe
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
